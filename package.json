@@ -12,11 +12,14 @@
 		"generate-production": "cp ./environments/environment.production.ts ./environments/environment.ts"
 	},
 	"dependencies": {
+		"@types/dompurify": "^2.3.3",
 		"axios": "^0.27.2",
+		"dompurify": "^2.3.8",
 		"next": "12.1.6",
 		"next-seo": "^5.4.0",
 		"react": "18.2.0",
-		"react-dom": "18.2.0"
+		"react-dom": "18.2.0",
+		"react-toastify": "^9.0.5"
 	},
 	"devDependencies": {
 		"@types/node": "18.0.0",
