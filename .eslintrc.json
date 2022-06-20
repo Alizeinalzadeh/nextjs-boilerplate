@@ -5,12 +5,16 @@
 	"rules": {
 		"no-console": "warn",
 		"prefer-const": "error",
-		"unused-imports/no-unused-imports": "error",
+		"unused-imports/no-unused-imports": "warn",
 		"no-empty": "error",
 		"no-alert": "error",
 		"no-empty-function": "error",
 		"no-duplicate-imports": "error",
 		"no-var": "error",
+		"object-shorthand": "error",
+		"no-new-object": "error",
+		"no-unused-vars": "warn",
+		"no-array-constructor": "error",
 		"sort-imports": [
 			"error",
 			{
