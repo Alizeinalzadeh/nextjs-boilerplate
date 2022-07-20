@@ -2,7 +2,7 @@ import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { DefaultSeo } from 'next-seo';
-import { SEO_CONFIG } from '@utils/config';
+import { SEO_CONFIG } from '@utils/Config';
 
 function MyApp({ Component, pageProps }: AppProps) {
 	return (
