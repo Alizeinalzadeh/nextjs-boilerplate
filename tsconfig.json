@@ -19,10 +19,14 @@
 		"paths": {
 			"@/components/*": ["components/*"],
 			"@/environments/*": ["environments/*"],
+			"@/hooks/*": ["hooks/*"],
+			"@/interface/*": ["interface/*"],
+			"@/pages/*": ["pages/*"],
+			"@/styles/*": ["styles/*"],
+			"@/utils/*": ["utils/*"],
+			"@/store/*": ["store/*"],
 			"@/public/*": ["public/*"],
-			"@styles/*": ["styles/*"],
-			"@utils/*": ["utils/*"],
-			"@adapter/*": ["adapter/*"]
+			"@/adapter/*": ["adapter/*"]
 		}
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

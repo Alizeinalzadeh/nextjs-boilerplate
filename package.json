@@ -3,14 +3,11 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"dev": "cp ./environments/environment.local.ts ./environments/environment.ts && next dev",
-		"build": "cp ./environments/environment.production.ts ./environments/environment.ts && next build",
+		"dev": "next dev",
+		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"create-component": "npx @ali_znzd/generate-react-cli component",
-		"generate-local": "cp ./environments/environment.local.ts ./environments/environment.ts",
-		"generate-stage": "cp ./environments/environment.stage.ts ./environments/environment.ts",
-		"generate-production": "cp ./environments/environment.production.ts ./environments/environment.ts"
+		"create-component": "npx @ali_znzd/generate-react-cli component"
 	},
 	"dependencies": {
 		"@types/dompurify": "^2.3.3",
